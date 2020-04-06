@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 public class RedisServiceImpl implements RedisService {
     @Autowired
     private JedisClient jedisClient;
-    @Value("{INDEX_CONTENT_REDIS_KEY}")
+    @Value("${INDEX_CONTENT_REDIS_KEY}")
     private String INDEX_CONTENT_REDIS_KEY;
 
     @Override
