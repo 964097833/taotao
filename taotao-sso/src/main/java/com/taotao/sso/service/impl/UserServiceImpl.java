@@ -95,7 +95,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public TaotaoResult getUserByToken(String token) {
         //在redis中查询对应的用户信息
-        String json = jedisClient.get(token);
+        String json = jedisClient.get(USER_TOKEN_KEY + ":" + token);
         //判断用户信息是否为空
         if (StringUtils.isBlank(json)) {
             return TaotaoResult.build(400, "用户未登录或登录信息已过期");
@@ -104,5 +104,20 @@ public class UserServiceImpl implements UserService {
         jedisClient.expire(USER_TOKEN_KEY + ":" + token, USER_REDIS_EXPIRE);
 
         return TaotaoResult.ok(JsonUtils.jsonToPojo(json, TbUser.class));
+    }
+
+    @Override
+    public TaotaoResult userLogout(String token) {
+
+        //判断输入的token是否有效
+        String json = jedisClient.get(USER_TOKEN_KEY + ":" + token);
+        //判断用户信息是否为空
+        if (StringUtils.isBlank(json)) {
+            return TaotaoResult.build(400, "此token已无效");
+        }
+
+        jedisClient.del(USER_TOKEN_KEY + ":" + token);
+
+        return TaotaoResult.ok();
     }
 }
