@@ -35,7 +35,8 @@ public class ItemServiceImpl implements ItemService {
                 document.addField("item_category_name", item.getCategory_name());
                 document.addField("item_desc", item.getItem_desc());
                 solrServer.add(document);
-
+                //不提交则无效
+                solrServer.commit();
             }
         } catch (Exception e) {
             e.printStackTrace();

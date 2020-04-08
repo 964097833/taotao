@@ -31,7 +31,7 @@ public class SearchServiceImpl implements SearchService {
         //设置高亮显示
         query.setHighlight(true);
         query.addHighlightField("item_title");
-        query.setHighlightSimplePre("<em style=\"color:red\"");
+        query.setHighlightSimplePre("<em style=\"color:red\">");
         query.setHighlightSimplePost("</em>");
         //执行查询
         SearchResult searchResult =searchDao.search(query);
@@ -41,7 +41,7 @@ public class SearchServiceImpl implements SearchService {
         if (recordCount % rows > 0) {
             pageCount++;
         }
-        searchResult.setPageCount(recordCount);
+        searchResult.setPageCount(pageCount);
         searchResult.setCurPage(page);
 
         return searchResult;
