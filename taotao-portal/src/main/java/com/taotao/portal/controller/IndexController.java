@@ -11,10 +11,12 @@ public class IndexController {
     @Autowired
     private ContentService contentService;
 
+
     @RequestMapping("/index")
     public String showIndex(Model model) {
         String adJson = contentService.getContentList();
         model.addAttribute("ad1", adJson);
         return "index";
     }
+
 }

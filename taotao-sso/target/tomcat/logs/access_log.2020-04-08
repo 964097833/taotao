@@ -1,5 +1,0 @@
-0:0:0:0:0:0:0:1 - - [08/Apr/2020:17:13:21 +0800] "GET /user/logout/8f29d05c-40c2-4418-bcdd-3683f685d70 HTTP/1.1" 200 63 http-bio-8084-exec-1 439
-0:0:0:0:0:0:0:1 - - [08/Apr/2020:17:13:25 +0800] "GET /user/logout/8f29d05c-40c2-4418-bcdd-3683f685d70a HTTP/1.1" 200 63 http-bio-8084-exec-4 10
-0:0:0:0:0:0:0:1 - - [08/Apr/2020:17:13:28 +0800] "GET /user/logout/8f29d05c-40c2-4418-bcdd-3683f685d70a HTTP/1.1" 200 63 http-bio-8084-exec-6 8
-127.0.0.1 - - [08/Apr/2020:17:13:37 +0800] "POST /user/login HTTP/1.1" 200 82 http-bio-8084-exec-8 398
-0:0:0:0:0:0:0:1 - - [08/Apr/2020:17:13:52 +0800] "GET /user/logout/9e242a70-7902-4a09-958e-e09c018890c7 HTTP/1.1" 200 48 http-bio-8084-exec-1 6

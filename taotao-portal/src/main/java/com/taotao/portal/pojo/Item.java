@@ -1,19 +1,30 @@
 package com.taotao.portal.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Item {
-    private String id;
+    private long id;
     private String title;
     private String sell_point;
     private long price;
     private String image;
     private String category_name;
     private String item_desc;
+    private Integer num;
 
-    public String getId() {
+    public Integer getNum() {
+        return num;
+    }
+
+    public void setNum(Integer num) {
+        this.num = num;
+    }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -65,6 +76,8 @@ public class Item {
         this.item_desc = item_desc;
     }
 
+    //序列化时忽略此方法
+    @JsonIgnore
     public String[] getImages() {
         if (image != null) {
             String[] images = image.split(",");

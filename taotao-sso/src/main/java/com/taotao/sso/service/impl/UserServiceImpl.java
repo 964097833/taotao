@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -64,7 +66,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public TaotaoResult userLogin(String username, String password) {
+    public TaotaoResult userLogin(String username, String password,
+                                  HttpServletRequest request, HttpServletResponse response) {
         //根据用户名查询
         //创建查询条件
         TbUserExample example = new TbUserExample();
@@ -89,6 +92,10 @@ public class UserServiceImpl implements UserService {
         jedisClient.set(USER_TOKEN_KEY + ":" + token, JsonUtils.objectToJson(user));
         //设置用户信息在redis种的过期时间
         jedisClient.expire(USER_TOKEN_KEY + ":" + token, USER_REDIS_EXPIRE);
+
+        //向cookie中写入token,cookie的有效期是关闭浏览器就失效
+        com.taotao.common.utils.CookieUtils.setCookie(request, response, "TT_TOKEN", token);
+
         return TaotaoResult.ok(token);
     }
 
