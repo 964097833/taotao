@@ -23,6 +23,9 @@ public class UserServiceImpl implements UserServoice {
         try {
             //调用sso系统的服务，根据token取用户信息
             String json = HttpClientUtil.doGet(SSO_BASE_URL + SSO_USER_TOKEN + token);
+            /*if (StringUtils.isBlank(json)) {
+                System.out.println("这里面是空的");
+            }*/
             //把json转换成taotaoresult
             TaotaoResult result = TaotaoResult.formatToPojo(json, TbUser.class);
             if (result.getStatus() == 200) {
