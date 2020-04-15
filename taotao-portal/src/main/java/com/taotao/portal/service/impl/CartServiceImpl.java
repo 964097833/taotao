@@ -27,7 +27,7 @@ public class CartServiceImpl implements CartService {
 
 
     @Override
-    public TaotaoResult addCartItem(long itemId,int num, HttpServletRequest request, HttpServletResponse response) {
+    public TaotaoResult addCartItem(long itemId, int num, HttpServletRequest request, HttpServletResponse response) {
         //取商品信息
         CartItem cartItem = null;
         //取购物车商品列表

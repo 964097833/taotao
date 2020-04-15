@@ -57,7 +57,8 @@ public class OrderServiceImpl implements OrderService {
 
         //插入订单明细
         for (TbOrderItem orderItem : orderItemList) {
-            orderItem.setId(jedisClient.incr(ORDER_DETAIL_GEN_KEY) + "");
+            long orderItemId = jedisClient.incr(ORDER_DETAIL_GEN_KEY);
+            orderItem.setId(orderItemId + "");
             orderItem.setOrderId(orderId + "");
             orderItemMapper.insert(orderItem);
         }

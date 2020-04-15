@@ -17,15 +17,12 @@ public class OrderServiceImpl implements OrderService {
     private String ORDER_CREATE_URL;
 
     @Override
-    public String createOrder(Order order) {
+    public TaotaoResult createOrder(Order order) {
 
         String json = HttpClientUtil.doPostJson(ORDER_BASE_URL + ORDER_CREATE_URL, JsonUtils.objectToJson(order));
         //把json转换成taotaoResult
         TaotaoResult result = TaotaoResult.format(json);
-        if (result.getStatus() == 200) {
-            Object orderId = result.getData();
-            return orderId.toString();
-        }
-        return "";
+
+        return result;
     }
 }

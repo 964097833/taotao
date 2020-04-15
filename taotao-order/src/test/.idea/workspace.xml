@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc592d0b-3375-4965-9404-73b8adbcf0a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../taotao-portal/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-common/src/main/java/com/taotao/pojo/TaotaoResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-common/src/main/java/com/taotao/pojo/TaotaoResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-common/src/main/java/com/taotao/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-common/src/main/java/com/taotao/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-common/target/taotao-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-common/target/taotao-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-manager/taotao-manager-web/target/tomcat/logs/access_log.2020-04-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main/java/com/taotao/order/service/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../main/java/com/taotao/order/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main/resources/spring/applicationContext-jedis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../main/resources/spring/applicationContext-jedis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main/resources/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../main/resources/spring/applicationContext-trans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../taotao-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../taotao-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/com/taotao/order/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/com/taotao/order/dao/JedisClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/com/taotao/order/dao/impl/JedisClientCluster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/com/taotao/order/dao/impl/JedisClientSingle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/com/taotao/order/pojo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/com/taotao/order/service/Impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/com/taotao/order/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/resource/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/resource/resource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/spring/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/spring/applicationContext-jedis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/spring/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/spring/applicationContext-trans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/classes/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/tomcat/logs/access_log.2020-04-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/src/main/java/com/taotao/portal/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/classes/com/taotao/portal/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/logs/access_log.2020-04-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/cart_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/cart_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/order_002dcart_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/order_002dcart_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/search_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/search_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/success_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/success_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-rest/target/tomcat/logs/access_log.2020-04-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-search/target/tomcat/logs/access_log.2020-04-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-sso/target/tomcat/logs/access_log.2020-04-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../taotao-sso/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../taotao-sso/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Softwares\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="runMavenInBackground" value="false" />
+  </component>
+  <component name="ProjectId" id="1aU8WmKcCsT5fVqrsh2HqWEyhaE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../practice" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc592d0b-3375-4965-9404-73b8adbcf0a3" name="Default Changelist" comment="" />
+      <created>1586778845652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586778845652</updated>
+      <workItem from="1586778848838" duration="76000" />
+      <workItem from="1586915747796" duration="112000" />
+      <workItem from="1586915988876" duration="186000" />
+      <workItem from="1586916372697" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586916407487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586916407487" />
+  </component>
+</project>
